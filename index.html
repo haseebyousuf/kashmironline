@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8810f0e06b.js" crossorigin="anonymous"></script>
+    <title>Kashmir Online</title>
+</head>
+<body>
+    <section id="main-container">
+        <div class="bannerVideo" id="slideShow">
+            <video src="images/final.mp4" class="active" autoplay muted loop width="100%" height="100%"></video> 
+        </div>
+        <div class="container">
+            <header id="navbar">
+                <div class="logo" data-aos="fade-up" >
+                    <img src="images/logo.png" alt="brandLogo">
+                    <a class="brandName" href="#">Kashmir Online</a>
+                </div>
+                <ul>
+                    <li style="--i:1"><a onclick="toggleMenu();" href="#main-container"    class="nav-link active">Home </a></li>
+                    <li  style="--i:2"><a onclick="toggleMenu();" href="#events" class="nav-link">Events </a></li>
+                    <li style="--i:3"><a href="#" class="nav-link">Desstination </a></li>
+                    <li style="--i:4"><a onclick="toggleMenu();" href="#site-footer" class="nav-link">About Us </a></li>
+                </ul>
+                <span class="menuIcon" onclick="toggleMenu();"></span>
+            </header>
+            <div class="content">
+                <div class="bannerText" data-aos="fade-right" data-aos-delay="400">
+                    <div>
+                        <h2>WE KNOW KASHMIR, LET US INTRODUCE IT TO YOU!</h2>
+                        <p>At Kashmironline, We are obsessively passionate to help you <b>‘Discover Kashmir With Us’</b> and bring you the most UpToDate & authentic information about Kashmir.</p>
+                    </div>
+                    
+                    <a class="btn-link" href="#"> <button class="main-btn" >Enter Paradise</button> </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="events" class="event-container">
+        <div class="event-content"> 
+            <div>
+                <h3>Kashmir Online Presents</h3>
+                <h1>Kashmir Got Talent 2021</h1>
+                <p>Get A Chance To Win Prizes Worth ₹1,00,000!<br> Show Us What You Have Got.</p>
+                <div>
+                    <a href="#" ><button class="contest-btn">Regester Now!</button></a>
+                </div>
+            </div>            
+        </div>
+    </section>
+    <footer class="site-footer" id="site-footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>About Us</h4>
+                    <p>
+                        At <i>Kashmironline</i> , we are presenting Kashmir in its entirety through the local lens. This is an easy to use platform which will be your one stop shop for information related to this heaven on earth. We bring you closer not just to the picturesque mountains, meadows and glaciers but also the hospitality, medical facilities, cuisine, historic, religious places, and above all the unique unexplored destinations.
+                    </p>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul >
+                        <li><i class="fas fa-compass"></i>Address</li>
+                        <li><i class="fas fa-envelope"></i>Email</li>
+                        <li><i class="fas fa-phone"></i>Phone</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="copyright">
+                <p>Copyright &copy; 2021 All Rights Reserved by 
+                    <a href="#">Kashmir Online</a></p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
